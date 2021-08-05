@@ -19,7 +19,7 @@ html{
 .section-block {height:calc(100vh - 8rem); padding:5rem;}
     .section-block.not-fullscreen {height: auto;}
     .section-block.grey{ background-color: grey;}
-    .section-block.blue{ background-color:#9999ff; height: 50rem;}
+    .section-block.blue{ background-color:#9999ff; height: auto;}
     .section-block h1,  .section-block h2 { display:block; margin-bottom:5rem; text-align:center; font-size: 4.8rem; font-weight: 400; }
     .section-block h1,  .section-block.h2 {color: #fff;}
 
@@ -73,7 +73,7 @@ header + * {margin-top: 8rem;}
         .my-passions-inner-conteiner h3, .my-portofolio-inner-conteiner h3{font-size: 2.4rem; text-align: center; margin-bottom: 2.5rem ; }
         .my-passions-inner-conteiner p, .my-portofolio-inner-conteiner p {font-size: 1.6rem; text-align: justify; text-indent: 1rem; line-height: 2rem;}
         .bear > img{ float:left; margin: 1.8rem 0px 0px 28rem;  width: 7rem; height: 7rem;}
-/*Pasiunile mele si proiectele mele*/
+        /*Pasiunile mele si proiectele mele*/
 
 
 
@@ -87,6 +87,7 @@ header + * {margin-top: 8rem;}
 
     @media( max-width:1023px) {
     .rec-section-box{height: auto; display: block; text-align:center;}
+    .bear > img {margin: 0 10px; padding: 0.2rem;}
 
 }
     @media(max-width:1100px) {
@@ -106,13 +107,13 @@ header + * {margin-top: 8rem;}
 
 
 /* About me*/
-    .about-me-inner-container{ display: flex; justify-content: space-around; align-items: center;color: white;   }
+    .about-me-inner-container{display: flex; justify-content: space-around; align-items: center;color: white;}
     .about-me-inner-container > img { width: 27rem; height: 28rem; border-radius: 50%; margin-right: 5rem; }
     .about-me-inner-container h3 {font-size: 3.2rem;  margin-bottom: 3rem; }
     .about-me-inner-container p { font-size: 2rem; text-indent: 2rem; line-height: 2.5rem; }
 
 @media(max-width:767px){
- .about-me-inner-container{display: block; text-align:center;}
+ .about-me-inner-container{ display: block; text-align:center; padding: 5rem 2.5rem;}
  .about-me-inner-container > img { width: 20rem; height: 20rem; margin-right:0; margin-bottom: 5rem; }
 }
 /* About me*/
@@ -125,6 +126,7 @@ footer{ font-size:1.6rem;color:white;}
     footer h3 {display: block; margin-bottom: 4rem; font-size: 2.4rem; font-weight: 500;}
     footer address {margin-bottom: 2rem ; }
     footer a {display: block; margin-bottom: 1rem;} 
+
 /* footer*/
 
 
@@ -133,15 +135,15 @@ footer{ font-size:1.6rem;color:white;}
 .grid{ width:calc(100% + 5rem); margin: 0 -2.5rem;} 
 .grid-box { position:relative; float:left; margin: 0 2.5rem 4rem; margin-right:0.8rem;}
 
-    .box-full { width:calc(100% - 5rem);}
+    .box-full {width:calc(100% - 5rem);}
     .box-half {width:calc(50% - 5rem);}
-    .box-third { width:calc(33.33% - 5rem);}
+    .box-third {width:calc(33.33% - 5rem);}
     .box-quarter{width:calc(25% - 5rem);}
 
 
 @media(max-width:767px){
     .box-half {width:calc(100% - 5rem);}
-    .box-third { width:calc(50% - 5rem);}
+    .box-third {width:calc(50% - 5rem);}
     .box-quarter{width:calc(33.33% - 5rem);}
 }
 
